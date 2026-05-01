@@ -1,10 +1,8 @@
 name: prayertimesapp
 description: "A new Flutter project."
 
-# Prevent publishing to pub.dev
 publish_to: 'none'
 
-# Version and build number
 version: 1.0.0+1
 
 environment:
@@ -15,14 +13,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   http: ^1.1.0
-geolocator: ^9.0.0
+  geolocator: ^9.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-
-
-
 
 flutter:
   uses-material-design: true
